@@ -1,0 +1,11 @@
+.team-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}

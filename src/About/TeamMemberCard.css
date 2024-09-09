@@ -1,0 +1,34 @@
+.team-member-card {
+  position: relative;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.team-member-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.team-member-info {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  transition: bottom 0.3s ease;
+}
+
+/* .team-member-card:hover .team-member-info {
+  bottom: 0;
+}
+
+.team-member-card:hover .team-member-image {
+  transform: scale(1.1); 
+/* } */
